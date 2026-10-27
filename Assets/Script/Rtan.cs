@@ -38,6 +38,7 @@ public class Rtan : MonoBehaviour
             renderers.flipX = false;
             direction = 0.05f;
         }
-        transform.position += Vector3.right* direction;
+
+        transform.position += Vector3.right * direction;
     }
 }
